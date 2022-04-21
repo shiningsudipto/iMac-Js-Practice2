@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <h3 class="text-center pb-4 mt-2">This is a single product</h3>
+    <div class="container mt-5">
+        <div class="row justify-content-between">
+            <div class="col-md-5">
+                <img class="w-100" src="./NicePng_bruise-png_9625340.png" alt="">
+            </div>
+            <div class="col-md-5" id="allPrice">
+                <h2 class="my-4">Customize your blue 24 inch iMac Apple M1 chip.</h2>
+                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus sit earum,
+                    ut quam aut
+                    facilis qui distinctio rerum mollitia beatae cupiditate officia aperiam maxime? Suscipit iure
+                    molestiae
+                    illum blanditiis.</p>
+                <hr>
+                <h3 class="py-3">Memory</h3>
+                <button class="btn btn-primary my-2" id="memory8gb">8GB unified memory</button>
+
+                <button class="btn btn-primary my-2" id="memory16gb">16GB unified memory</button>
+
+                <h3 class="py-3">Storage</h3>
+                <button class="btn btn-primary my-2" id="storage256gb">256GB SSD Storage</button>
+
+                <button class="btn btn-primary my-2" id="storage512gb">512GB SSD Storage</button>
+
+                <button class="btn btn-primary my-2" id="storage1TB">1TB SSD Storage</button>
+
+                <h3 class="py-3">Choose your deleviry option</h3>
+
+                <button class="btn btn-primary my-2" id="delevery1">Normal shiping delevery option</button>
+
+                <button class="btn btn-primary my-2" id="delevery2">7 day delevery option</button>
+
+                <h3 class="py-3">Price calculation</h3>
+                <div class="allprize fw-bold ">
+                    <div class="prize d-flex justify-content-between">
+                        <div class="">
+                            <p>Basic price</p>
+                            <p>Extra memory cost</p>
+                            <p>Extra storage cost</p>
+                            <p>Delevery charge</p>
+                        </div>
+                        <div class="">
+                            <p>$<span id="basicPrice">1250</span></p>
+                            <p>$<span id="memoryPrice">0</span></p>
+                            <p>$<span id="storagePrice">0</span></p>
+                            <p>$<span id="deleveryCharge">0</span></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="prizetotal d-flex justify-content-between">
+                        <p>Basic prize</p>
+                        <p>$ <span id="totalbasicPrice">1250</span></p>
+                    </div>
+
+
+
+                    <div class="promo d-flex justify-content-between my-3">
+                        <input type="text" id="promoCode" placeholder="enter promo code"><button class="btn btn-danger"
+                            id="submit">Submit</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h3 class="text-center">Total: $ <span id="totalPrice">1250</span></h3>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
